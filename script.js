@@ -13,7 +13,7 @@ function multiply(a, b) {
 }
 
 function divide(a, b) {
-    if (b === 0) {
+    if (b === "0") {
         return "ERROR"
     }
     return a / b;
